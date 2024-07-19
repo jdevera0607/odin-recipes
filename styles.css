@@ -1,32 +1,31 @@
 
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-body{
-    text-align: center;
-}
-h1, h2{
-    padding: 10px;
-}
 p{
     margin: 20px;
 }
+
+.card h1{
+    text-align: center;
+    width: 100%;
+}
+
 .card{  
-    width:30%;
-    height:250px;
-    text-align: left;
-    display: inline-block;
+   display: flex;
+   flex-wrap:wrap;
+   flex-grow: 1;
+   text-align: left;
+   justify-items: center;
+   align-items: center;
+   width: 100%;
+   height:100%;
+   flex-direction: column;
 }
-.card li{
-    padding: 3px;
+.timelist, .ingredients, .instructions{
+    width:50%;
 }
-ul, ol{
-    text-align:left;
-    display:inline-block;
-}
+
 a{
-    padding:10px;
+    text-align: center;
+    width: 100%;
 }
+
 
